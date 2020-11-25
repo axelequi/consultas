@@ -1,0 +1,40 @@
+{{#each alumnos}}
+  <form method="post" action="/alumnos/confirmarmodifica">
+  Ingrese nueva apellido y nombre del articulo:
+  <input type="apyn_alumno" name="apyn_alumno" size="50" value="{{apyn_alumno}}">
+  <br>
+  Ingrese nuevo domicilio del alumno:
+  <input type="text" name="dom_alumno" size="10" value="{{dom_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  Ingrese nuevo codigo postal del alumno:
+  <input type="text" name="cod_postal" size="10" value="{{cod_postal}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  Ingrese nueva fecha de nacimiento del alumno:
+  <input type="text" name="fecha_nac_alumno" size="10" value="{{fecha_nac_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  Ingrese nuevo email del alumno:
+  <input type="text" name="email_alumno" size="10" value="{{email_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  Ingrese nueva grupo sanguinio del alumno:
+  <input type="text" name="grupo_sang_alumno" size="10" value="{{grupo_sang_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  Ingrese nuevo telefono fijo del alumno:
+  <input type="text" name="tel_fijo_alumno" size="10" value="{{tel_fijo_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+   Ingrese nuevo telefono movil del alumno:
+  <input type="text" name="tel_movil_alumno" size="10" value="{{tel_movil_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+   Ingrese nuevo dni del alumno:
+  <input type="text" name="dni_alumno" size="10" value="{{dni_alumno}}">
+  <input type="hidden" name="leg_alumno" size="10" value="{{leg_alumno}}">  
+  <br>
+  <input type="submit" value="Modificar">
+  </form>
+{{/each}}  							
